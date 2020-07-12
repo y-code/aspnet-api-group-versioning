@@ -16,7 +16,7 @@ The following diagram describes how we can version API and endpoints. The lanes 
 
 API users can send a request to an endpoint with a group version. API Group Versioning will route the request to the action versioned with the corresponding major-minor version. For example, the request to Endpoint A with API version 2020-02-14 is routed to Endpoint A v1.2, while the request to Endpoint B with the same API version goes to Endpoint B v1.1.
 
-![Group Version](./doc/images/group_versioning.png)
+![Group Version](https://github.com/y-code/aspnet-api-group-versioning/raw/master/doc/images/group_versioning.png)
 
 ## Code Sample
 
