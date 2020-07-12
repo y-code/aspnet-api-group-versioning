@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ycode.AspNetCore.Mvc.GroupVersioning.Test</RootNamespace>
+    <AssemblyName>Ycode.AspNetCore.Mvc.GroupVersioning.Test</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.6.1" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Y-code.UriConvert" Version="1.0.0-rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\samples\Sample1\Sample1.csproj" />
+    <ProjectReference Include="..\samples\Sample2\Sample2.csproj" />
+    <ProjectReference Include="..\samples\Sample3\Sample3.csproj" />
+    <ProjectReference Include="..\samples\SampleCommon\SampleCommon.csproj" />
+    <ProjectReference Include="..\samples\Sample4\Sample4.csproj" />
+    <ProjectReference Include="..\samples\Sample5\Sample5.csproj" />
+    <ProjectReference Include="..\..\src\AspNetCore.Mvc.GroupVersioning\AspNetCore.Mvc.GroupVersioning.csproj" />
+  </ItemGroup>
+</Project>

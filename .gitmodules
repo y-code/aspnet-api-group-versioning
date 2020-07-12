@@ -1,0 +1,3 @@
+[submodule "components/aspnet-api-versioning"]
+	path = components/aspnet-api-versioning
+	url = https://github.com/microsoft/aspnet-api-versioning.git
